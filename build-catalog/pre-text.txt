@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="THREDDS Server Catalog"
+         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0
+           https://schemas.unidata.ucar.edu/thredds/InvCatalog.1.0.6.xsd">
+  
+  <service name="all" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+    <service name="dap4" serviceType="DAP4" base="/thredds/dap4/"/>
+    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+    <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+    <service name="ncssGrid" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+    <!-- 
+    <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+    -->
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  </service>
+
+  <featureCollection featureType="GRIB2" name="Model GDWPS" path="gribCollection/GDWPS">
+     <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataType>Grid</dataType>
+     </metadata>
+     <collection name="Model GDWPS Grib-2" spec="/store/hpfx.collab.science.gc.ca/**/.*grib2$" timePartition="directory"/>
+     <update startup="test" />
+     <gribConfig datasetTypes="TwoD Latest Best" />
+  </featureCollection>
+
+  <datasetScan name="ECCC Model GIOPS Surface Lat x Lon" ID="ECCC-model_giops-2d-ll" path="ECCC/model_giops/lat_lon/2d" location="/store/hpfx.collab.science.gc.ca/model_giops/netcdf/lat_lon/2d/">
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_giops/readme_giops-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+      <variables vocabulary="CF-1.6">
+	<variable name="sossheig" vocabulary_name="sea_surface_height_above_geoid" units="m">Sea surface height with respect to the geoid</variable>
+	<variable name="iiceconc" vocabulary_name="sea_ice_area_fraction" unit="1">Sea ice area fraction</variable>
+      </variables>
+    </metadata>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model GIOPS 3D Lat x Lon" ID="ECCC-model_giops-3d-ll" path="ECCC/model_giops/lat_lon/3d" location="/store/hpfx.collab.science.gc.ca/model_giops/netcdf/lat_lon/3d/">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_giops/readme_giops-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+	<variable name="votemper" vocabulary_name="sea_water_potential_temperature" units="K">Sea water potential temperature</variable>
+	<variable name="vosaline" vocabulary_name="sea_water_salinity" unit="">Sea water salinity</variable>
+	<variable name="vozocrtx" vocabulary_name="sea_water_x_velocity" unit="m/s">Sea water x velocity</variable>
+	<variable name="vozocrty" vocabulary_name="sea_water_y_velocity" unit="m/s">Sea water y velocity</variable>
+      </variables>
+       <serviceName>all</serviceName>
+         <dataType>Grid</dataType>
+         <dataFormat>NetCDF</dataFormat>
+     </metadata>
+     <sort>
+       <lexigraphicByName increasing="true"/>
+     </sort>
+     <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model RIOPS Surface Polar Stereographic" ID="ECCC-model_riops-2d-ps" path="ECCC/model_riops/netcdf/forecast/polar_stereographic/2d" location="/store/hpfx.collab.science.gc.ca/model_riops/netcdf/forecast/polar_stereographic/2d">
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_riops/readme_riops_en" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+<!--
+      <variables vocabulary="CF-1.6">
+	<variable name="sossheig" vocabulary_name="sea_surface_height_above_geoid" units="m">Sea surface height with respect to the geoid</variable>
+	<variable name="iiceconc" vocabulary_name="sea_ice_area_fraction" unit="1">Sea ice area fraction</variable>
+      </variables>
+-->
+    </metadata>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model RIOPS 3D Polar Stereographic" ID="ECCC-model_riops-3d-ps" path="ECCC/model_riops/netcdf/forecast/polar_stereographic/3d" location="/store/hpfx.collab.science.gc.ca/model_riops/netcdf/forecast/polar_stereographic/3d">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_riops/readme_riops_en" email="production-info@ec.gc.ca"/>
+      </publisher>
+<!--
+      <variables vocabulary="CF-1.6">
+	<variable name="votemper" vocabulary_name="sea_water_potential_temperature" units="K">Sea water potential temperature</variable>
+	<variable name="vosaline" vocabulary_name="sea_water_salinity" unit="">Sea water salinity</variable>
+	<variable name="vozocrtx" vocabulary_name="sea_water_x_velocity" unit="m/s">Sea water x velocity</variable>
+	<variable name="vozocrty" vocabulary_name="sea_water_y_velocity" unit="m/s">Sea water y velocity</variable>
+      </variables>
+-->
+       <serviceName>all</serviceName>
+         <dataType>Grid</dataType>
+         <dataFormat>NetCDF</dataFormat>
+     </metadata>
+     <sort>
+       <lexigraphicByName increasing="true"/>
+     </sort>
+     <addDatasetSize/>
+  </datasetScan>

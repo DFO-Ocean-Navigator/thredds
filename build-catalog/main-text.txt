@@ -1,0 +1,501 @@
+  <datasetScan name="ECCC Model GDWPS NETCDF ##DATE##" ID="ECCC-model_gdwps-netcdf-##DATE##" path="ECCC/##DATE##/netcdf/model_gdwps" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_gdwps/netcdf">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_wcps/readme_wcps_nemo-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+         <variable name="swh" vocabulary_name="HTSGW" units="m">Significant height of combined wind waves and swell</variable>
+         <variable name="siconc" vocabulary_name="ICEC" units="1">Ice cover</variable>
+         <variable name="u10" vocabulary_name="UGRD" units="m/s">U-Component of Wind</variable>
+         <variable name="v10" vocabulary_name="VGRD" units="m/s">V-Component of Wind</variable>
+      </variables>
+      <serviceName>all</serviceName>
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+      </metadata>
+      <filter>
+         <include wildcard="*.nc" />
+      </filter>
+      <sort>
+        <lexigraphicByName increasing="true"/>
+      </sort>
+      <addDatasetSize/>
+  </datasetScan>
+<!--
+  <datasetScan name="ECCC Model Continentl HRDPS Polar Stereographic  NetCDF ##DATE##" ID="ECCC-model_hrdps-continental-netcdf-##DATE##" path="ECCC/##DATE##/model_hrdps/continental/netcdf" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/continental">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_wcps/readme_wcps_nemo-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+         <variable name="iicestrength" vocabulary_name="iicestrengrh" units="N/m">Depth-integrated compressive sea ice strength</variable>
+      </variables>
+      <serviceName>all</serviceName>
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+      </metadata>
+      <filter>
+         <include wildcard="*.nc" />
+      </filter>
+      <sort>
+        <lexigraphicByName increasing="true"/>
+      </sort>
+      <addDatasetSize/>
+  </datasetScan>
+-->
+
+<!--
+  <datasetScan name="ECCC Model East HRDPS Polar Stereographic  NetCDF ##DATE##" ID="ECCC-model_hrdps-east-netcdf-##DATE##" path="ECCC/##DATE##/model_hrdps/east/netcdf" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/east">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_wcps/readme_wcps_nemo-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+         <variable name="iicestrength" vocabulary_name="iicestrengrh" units="N/m">Depth-integrated compressive sea ice strength</variable>
+      </variables>
+      <serviceName>all</serviceName>
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+      </metadata>
+      <filter>
+         <include wildcard="*.nc" />
+      </filter>
+      <sort>
+        <lexigraphicByName increasing="true"/>
+      </sort>
+      <addDatasetSize/>
+  </datasetScan>
+-->
+
+<!--
+  <datasetScan name="ECCC Model Maritimes HRDPS Polar Stereographic  NetCDF ##DATE##" ID="ECCC-model_hrdps-maritimes-netcdf-##DATE##" path="ECCC/##DATE##/model_hrdps/north/netcdf" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/north">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_wcps/readme_wcps_nemo-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+         <variable name="iicestrength" vocabulary_name="iicestrengrh" units="N/m">Depth-integrated compressive sea ice strength</variable>
+      </variables>
+      <serviceName>all</serviceName>
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+      </metadata>
+      <filter>
+         <include wildcard="*.nc" />
+      </filter>
+      <sort>
+        <lexigraphicByName increasing="true"/>
+      </sort>
+      <addDatasetSize/>
+  </datasetScan>
+-->
+
+<!--
+  <datasetScan name="ECCC Model North HRDPS Polar Stereographic  NetCDF ##DATE##" ID="ECCC-model_hrdps-north-netcdf-##DATE##" path="ECCC/##DATE##/model_hrdps/north/netcdf" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/north">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_wcps/readme_wcps_nemo-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+         <variable name="iicestrength" vocabulary_name="iicestrengrh" units="N/m">Depth-integrated compressive sea ice strength</variable>
+      </variables>
+      <serviceName>all</serviceName>
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+      </metadata>
+      <filter>
+         <include wildcard="*.nc" />
+      </filter>
+      <sort>
+        <lexigraphicByName increasing="true"/>
+      </sort>
+      <addDatasetSize/>
+  </datasetScan>
+-->
+
+<!--
+  <datasetScan name="ECCC Model Prairies HRDPS Polar Stereographic  NetCDF ##DATE##" ID="ECCC-model_hrdps-prairies-netcdf-##DATE##" path="ECCC/##DATE##/model_hrdps/prairies/netcdf" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/prairies">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_wcps/readme_wcps_nemo-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+         <variable name="iicestrength" vocabulary_name="iicestrengrh" units="N/m">Depth-integrated compressive sea ice strength</variable>
+      </variables>
+      <serviceName>all</serviceName>
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+      </metadata>
+      <filter>
+         <include wildcard="*.nc" />
+      </filter>
+      <sort>
+        <lexigraphicByName increasing="true"/>
+      </sort>
+      <addDatasetSize/>
+  </datasetScan>
+-->
+
+<!--
+  <datasetScan name="ECCC Model West HRDPS Polar Stereographic  NetCDF ##DATE##" ID="ECCC-model_hrdps-west-netcdf-##DATE##" path="ECCC/##DATE##/model_hrdps/west/netcdf" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/west">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_wcps/readme_wcps_nemo-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+         <variable name="iicestrength" vocabulary_name="iicestrengrh" units="N/m">Depth-integrated compressive sea ice strength</variable>
+      </variables>
+      <serviceName>all</serviceName>
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+      </metadata>
+      <filter>
+         <include wildcard="*.nc" />
+      </filter>
+      <sort>
+        <lexigraphicByName increasing="true"/>
+      </sort>
+      <addDatasetSize/>
+  </datasetScan>
+-->
+
+<!--
+  <datasetScan name="ECC Model HRDPS Continental Polar Stereographic GRIB2 ##DATE##" ID="continental"
+             path="continental" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/continental">
+
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_hrdps/readme_hrdps_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+    </metadata>
+    <filter>
+       <include wildcard="*.grib2" />
+    </filter>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+-->
+<!--
+  <datasetScan name="ECC Model HRDPS East Polar Stereographic GRIB2 ##DATE##" ID="east"
+             path="east" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/east">
+
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_hrdps/readme_hrdps_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+    </metadata>
+    <filter>
+       <include wildcard="*.grib2" />
+    </filter>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+-->
+<!--
+  <datasetScan name="ECC Model HRDPS Maritimes Polar Stereographic GRIB2 ##DATE##" ID="maritimes"
+             path="maritimes" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/maritimes">
+
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_hrdps/readme_hrdps_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+    </metadata>
+    <filter>
+       <include wildcard="*.grib2" />
+    </filter>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+-->
+<!--
+  <datasetScan name="ECC Model HRDPS North Polar Stereographic GRIB2 ##DATE##" ID="north"
+             path="north" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/north">
+
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_hrdps/readme_hrdps_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+    </metadata>
+
+    <filter>
+       <include wildcard="*.grib2" />
+    </filter>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+-->
+
+<!--
+  <datasetScan name="ECC Model HRDPS Prairies Polar Stereographic GRIB2 ##DATE##" ID="prairies"
+             path="prairies" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/prairies">
+
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_hrdps/readme_hrdps_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+    </metadata>
+    <filter>
+       <include wildcard="*.grib2" />
+    </filter>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+-->
+
+<!--
+  <datasetScan name="ECC Model HRDPS West Polar Stereographic GRIB2 ##DATE##" ID="west"
+             path="west" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_hrdps/west">
+
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_hrdps/readme_hrdps_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+    </metadata>
+    <filter>
+       <include wildcard="*.grib2" />
+    </filter>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+-->
+
+  <datasetScan name="ECCC Model CIOPS East Surface Lat x Lon ##DATE##" ID="ECCC-model_ciops-east-2d-ll-##DATE##" path="ECCC/##DATE##/model_ciops/east/2km" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_ciops/east/2km">
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_ciops/readme_ciops_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+<!--
+      <variables vocabulary="CF-1.6">
+	<variable name="sossheig" vocabulary_name="sea_surface_height_above_geoid" units="m">Sea surface height with respect to the geoid</variable>
+	<variable name="iiceconc" vocabulary_name="sea_ice_area_fraction" unit="1">Sea ice area fraction</variable>
+      </variables>
+-->
+    </metadata>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model CIOPS Salish Sea Surface Lat x Lon ##DATE##" ID="ECCC-model_ciops-salish-sea-2d-ll-##DATE##" path="ECCC/##DATE##/model_ciops/salish-sea/500m" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_ciops/salish-sea/500m">
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_ciops/readme_ciops_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+<!--
+      <variables vocabulary="CF-1.6">
+	<variable name="sossheig" vocabulary_name="sea_surface_height_above_geoid" units="m">Sea surface height with respect to the geoid</variable>
+	<variable name="iiceconc" vocabulary_name="sea_ice_area_fraction" unit="1">Sea ice area fraction</variable>
+      </variables>
+-->
+    </metadata>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model CIOPS West Surface Lat x Lon ##DATE##" ID="ECCC-model_ciops-west-2d-ll-##DATE##" path="ECCC/##DATE##/model_ciops/west/2km" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_ciops/west/2km">
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_ciops/readme_ciops_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+<!--
+      <variables vocabulary="CF-1.6">
+	<variable name="sossheig" vocabulary_name="sea_surface_height_above_geoid" units="m">Sea surface height with respect to the geoid</variable>
+	<variable name="iiceconc" vocabulary_name="sea_ice_area_fraction" unit="1">Sea ice area fraction</variable>
+      </variables>
+-->
+    </metadata>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model GIOPS Surface Lat x Lon ##DATE##" ID="ECCC-model_giops-2d-ll-##DATE##" path="ECCC/##DATE##/model_giops/lat_lon/2d" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_giops/netcdf/lat_lon/2d/">
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_giops/readme_giops-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+      <variables vocabulary="CF-1.6">
+	<variable name="sossheig" vocabulary_name="sea_surface_height_above_geoid" units="m">Sea surface height with respect to the geoid</variable>
+	<variable name="iiceconc" vocabulary_name="sea_ice_area_fraction" unit="1">Sea ice area fraction</variable>
+      </variables>
+    </metadata>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model GIOPS 3D Lat x Lon ##DATE##" ID="ECCC-model_giops-3d-ll-##DATE##" path="ECCC/##DATE##/model_giops/lat_lon/3d" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_giops/netcdf/lat_lon/3d/">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_giops/readme_giops-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+	<variable name="votemper" vocabulary_name="sea_water_potential_temperature" units="K">Sea water potential temperature</variable>
+	<variable name="vosaline" vocabulary_name="sea_water_salinity" unit="">Sea water salinity</variable>
+	<variable name="vozocrtx" vocabulary_name="sea_water_x_velocity" unit="m/s">Sea water x velocity</variable>
+	<variable name="vozocrty" vocabulary_name="sea_water_y_velocity" unit="m/s">Sea water y velocity</variable>
+      </variables>
+       <serviceName>all</serviceName>
+         <dataType>Grid</dataType>
+         <dataFormat>NetCDF</dataFormat>
+     </metadata>
+     <sort>
+       <lexigraphicByName increasing="true"/>
+     </sort>
+     <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model RIOPS Surface Polar Stereographic ##DATE##" ID="ECCC-model_riops-2d-ps-##DATE##" path="ECCC/##DATE##/model_riops/netcdf/forecast/polar_stereographic/2d" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_riops/netcdf/forecast/polar_stereographic/2d">
+    <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_riops/readme_riops_en" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <serviceName>all</serviceName>
+<!--
+      <variables vocabulary="CF-1.6">
+	<variable name="sossheig" vocabulary_name="sea_surface_height_above_geoid" units="m">Sea surface height with respect to the geoid</variable>
+	<variable name="iiceconc" vocabulary_name="sea_ice_area_fraction" unit="1">Sea ice area fraction</variable>
+      </variables>
+-->
+    </metadata>
+    <sort>
+      <lexigraphicByName increasing="true"/>
+    </sort>
+    <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model RIOPS 3D Polar Stereographic ##DATE##" ID="ECCC-model_riops-3d-ps-##DATE##" path="ECCC/##DATE##/model_riops/netcdf/forecast/polar_stereographic/3d" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_riops/netcdf/forecast/polar_stereographic/3d">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_riops/readme_riops_en" email="production-info@ec.gc.ca"/>
+      </publisher>
+<!--
+      <variables vocabulary="CF-1.6">
+	<variable name="votemper" vocabulary_name="sea_water_potential_temperature" units="K">Sea water potential temperature</variable>
+	<variable name="vosaline" vocabulary_name="sea_water_salinity" unit="">Sea water salinity</variable>
+	<variable name="vozocrtx" vocabulary_name="sea_water_x_velocity" unit="m/s">Sea water x velocity</variable>
+	<variable name="vozocrty" vocabulary_name="sea_water_y_velocity" unit="m/s">Sea water y velocity</variable>
+      </variables>
+-->
+       <serviceName>all</serviceName>
+         <dataType>Grid</dataType>
+         <dataFormat>NetCDF</dataFormat>
+     </metadata>
+     <sort>
+       <lexigraphicByName increasing="true"/>
+     </sort>
+     <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model WCPS Surface Lat x Lon  ##DATE##" ID="ECCC-model_wcps-2d-ll-##DATE##" path="ECCC/##DATE##/model_wcps/nemo/netcdf/lat_lon/2d" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_wcps/nemo/netcdf/lat_lon/2d">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_wcps/readme_wcps_nemo-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+         <variable name="tairsurf"     vocabulary_name="tairsuf"      units="K">Air temperature at about 40 meters in height</variable>
+         <variable name="uwindsurf"    vocabulary_name="uwindsurf"    units="m/s">Wind X velocity</variable>
+         <variable name="vwindsurf"    vocabulary_name="vwindsurg"    units="m/s">Wind Y velocity</variable>
+         <variable name="vozocrtx"     vocabulary_name="vozocrtx"     units="m/s">Sea water X velocity at the first model layer</variable>
+         <variable name="vomecrty"     vocabulary_name="vomectry"     units="m/s">Sea water Y velocity at the first model layer</variable>
+         <variable name="votemper"     vocabulary_name="votemper"     units="K">Sea water potential temperature at the first model layer</variable>
+         <variable name="vosaline"     vocabulary_name="vosaline"     units="1e-3">Sea water salinity at the surface</variable>
+         <variable name="sossheig"     vocabulary_name="sossheig"     units="m">Sea surface height above geoid</variable>
+         <variable name="sokaraml"     vocabulary_name="sokamraml"    units="m">Ocean mixed layer depth based on density criterion</variable>
+         <variable name="iiceconc"     vocabulary_name="iiceconc"     units="1">Sea ice area fraction</variable>
+         <variable name="iicevol"      vocabulary_name="iicevol"      units="m">Sea ice volume per unit grid cell area</variable>
+         <variable name="itzocrtx"     vocabulary_name="itzocrtx"     units="m/s">Sea ice X velocity</variable>
+         <variable name="itmecrty"     vocabulary_name="itmectry"     units="m/s">Sea ice Y velocity</variable>
+         <variable name="iicepressure" vocabulary_name="iicepressure" units="1">Depth-integrated internal sea ice pressure</variable>
+         <variable name="iicestrength" vocabulary_name="iicestrengrh" units="N/m">Depth-integrated compressive sea ice strength</variable>
+      </variables>
+      <serviceName>all</serviceName>
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+     </metadata>
+     <sort>
+       <lexigraphicByName increasing="true"/>
+     </sort>
+     <addDatasetSize/>
+  </datasetScan>
+
+  <datasetScan name="ECCC Model WCPS 1km Surface Lat x Lon  ##DATE##" ID="ECCC-model_wcps-1km-2d-ll-##DATE##" path="ECCC/##DATE##/model_wcps/ocean-atmosphere/1km" location="/store/hpfx.collab.science.gc.ca/##DATE##/WXO-DD/model_wcps/ocean-atmosphere/1km">
+     <metadata inherited="true">
+      <publisher>
+        <name vocabulary="DIF">The Canadian Centre for Meteorological and Environmental Prediction</name>
+	<contact url="https://eccc-msc.github.io/open-data/msc-data/nwp_wcps/readme_wcps_nemo-datamart_en/" email="production-info@ec.gc.ca"/>
+      </publisher>
+      <variables vocabulary="CF-1.6">
+         <variable name="tairsurf"     vocabulary_name="tairsuf"      units="K">Air temperature at about 40 meters in height</variable>
+         <variable name="uwindsurf"    vocabulary_name="uwindsurf"    units="m/s">Wind X velocity at about 40 meters in height</variable>
+         <variable name="vwindsurf"    vocabulary_name="vwindsurg"    units="m/s">Wind Y velocity at about 40 meters in height</variable>
+         <variable name="vozocrtx"     vocabulary_name="vozocrtx"     units="m/s">Sea water X velocity at the first model layer</variable>
+         <variable name="vomecrty"     vocabulary_name="vomectry"     units="m/s">Sea water Y velocity at the first model layer</variable>
+         <variable name="votemper"     vocabulary_name="votemper"     units="K">Sea water potential temperature at the first model layer</variable>
+         <variable name="vosaline"     vocabulary_name="vosaline"     units="1e-3">Sea water salinity at the surface</variable>
+         <variable name="sossheig"     vocabulary_name="sossheig"     units="m">Sea surface height above geoid. For Great Lakes, the reference is IGLD85</variable>
+         <variable name="sokaraml"     vocabulary_name="sokamraml"    units="m">Ocean mixed layer depth based on density criterion</variable>
+         <variable name="iiceconc"     vocabulary_name="iiceconc"     units="1">Sea ice area fraction</variable>
+         <variable name="iicevol"      vocabulary_name="iicevol"      units="m">Sea ice volume per unit grid cell area</variable>
+         <variable name="itzocrtx"     vocabulary_name="itzocrtx"     units="m/s">Sea ice X velocity</variable>
+         <variable name="itmecrty"     vocabulary_name="itmectry"     units="m/s">Sea ice Y velocity</variable>
+         <variable name="iicepressure" vocabulary_name="iicepressure" units="1">Depth-integrated internal sea ice pressure</variable>
+         <variable name="iicestrength" vocabulary_name="iicestrengrh" units="N/m">Depth-integrated compressive sea ice strength</variable>
+      </variables>
+      <serviceName>all</serviceName>
+      <dataType>Grid</dataType>
+      <dataFormat>NetCDF</dataFormat>
+      </metadata>
+      <sort>
+        <lexigraphicByName increasing="true"/>
+      </sort>
+      <addDatasetSize/>
+  </datasetScan>
